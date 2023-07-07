@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+	<!------Header Section------>
+	<header>
+		<a href="#" class="logo">Devlo<span>pe</span>r..</a>
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#portfolio">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+
+	<!---------Home Section--------------->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">I'm</span>
+			</div>
+			<h1>Sneha Saravanan</h1>
+			<h3>Full Stack Developer
+			
+			</h3>
+			<p>student at SRI ESHWAR COLLEGE OF ENGINEERING <br>pursuing B.E Computer Science.</p>
+			<div class="button">
+				<a href="#" class="btn">About Me</a>
+			</div>
+		</div>
+	</section>
+
+	<!---------about Section --------------->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.jpeg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>Full Stack Web Developer!</h4>
+			<p>
+				Motivated self starter with experience in adapting to new processes,techniques 
+				and technologies.Proven problem-solver skilled in responding quikly and 
+				effectively to changing conditions.Able to learn and master new concepts quickly.
+				As a college student, I am highly eager to apply my 
+				knowledge and skills to contribute to a dynamic and challenging work environment. 
+				With a strong academic foundation.
+				</p>
+				<a href="#" class="btn">More About</a>
+		</div>
+	</section>
+
+	<!-----------Services Section-------------->
+	<section class="skills" id="skills">
+	<div class="main-text">
+		<h2><span>My</span>Skills</h2>
+	</div>
+	<div class="services-content">
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-mobile-alt'></i>
+			</div>
+			<h3>Technical Skills</h3>
+			<p><li>C</li>
+				<li>Java</li>
+                <li>Python </li>
+			    <li>Mongodb</li>
+			    <li>Nodejs</li>
+				<li>React </li>
+                <li>Good programming knowledge</li>
+			</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-code-alt'></i>
+			</div>
+			<h3>Web Development</h3>
+			<p>As a passionate and motivated student learning web development, I have acquired a solid foundation in various aspects of web development. I am excited to apply my knowledge and skills to create innovative and user-friendly web experiences.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-edit-alt'></i>
+			</div>
+			<h3>Front End Development</h3>
+			<p>As a student front-end developer, I have been acquiring valuable skills in HTML5, CSS3, and JavaScript. I enjoy leveraging these languages to bring static designs to life and add interactivity to websites. With a keen eye for design and attention to detail, I strive to create visually appealing and user-friendly web applications.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+	</div>
+
+</section>
+
+<!-----------Portfolio Section--------------->
+<section class="portfolio" id="portfolio">
+	<div class="main-text">
+		<h2><span>Latest</span>Project</h2>
+	</div>
+	<div class="portfolio-content">
+
+		<div class="row">
+			<img src="img/pic.webp" >
+			<div class="layer">
+				<h5>Intruder detection</h5>
+				<p>Our project is to detect the unauthorized entry to the system by using opencv, ml and python.
+					It sends a notification to the registered mobile number.</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/hospital.webp" >
+			<div class="layer">
+				<h5>Medical Report Management System</h5>
+				<p>Nowadays managing the reports manually is a big challenge for many of us.
+					Inorder to over come the issue we created a website which store the report of the patients 
+					so that all the records can be easily retreived for future reference.</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Contact <span>Me!</span></h2>
+		<hr>
+		
+		<div class="list">
+			<li><a href="#">7397632544</a></li>
+			<li><a href="#">sneha.rs2021csea@gmail.com</a></li>
+			
+		</div>
+
+		<div class="contact-icons">
+			<a href="https://www.linkedin.com/in/sneha-rs-42a53b242/"><i class='bx bxl-linkedin-square'></i></a>
+			<a href="https://github.com/Sneha-2003"><i class='bx bxl-github' ></i></a>
+			
+			
+		</div>
+
+	</div>
+	<div class="contact-form">
+		<form action="">
+			<input type="name" placeholder="Your Name " required>
+			<input type="email" placeholder="Your Email " required>
+			<input type="number" placeholder="your Mobile Number" required>
+			<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+			<input type="submit" value="Send Message" class="submit" required>
+		</form>
+
+	</div>
+</section>
+
+<!---------End Section---------->
+<section class="end">
+	<div class="last-text">
+		<p>Design By Sneha Saravanan</p>
+	</div>
+	<div class="top">
+		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
+</section>
+
+</body>
+
+</html>
